@@ -1,4 +1,4 @@
-module github.com/k8s-client
+module github.com/ip-to-pod-name
 
 go 1.15
 
