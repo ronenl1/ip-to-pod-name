@@ -10,5 +10,5 @@ go run main.go -ip <pod_IP>
 
 If you run on MacOS you can download the artifact and execute the program from the following [link](https://github.com/ronenl1/ip-to-pod-name/releases/download/0.0.1/ip-to-pod-name)
 
-You can provide -kubeconfig to use different config file for authenticating with the cluster (default ~/.kube/config)
+You can provide -kubeconfig to use different config file for authenticating to the cluster (default ~/.kube/config)
 
