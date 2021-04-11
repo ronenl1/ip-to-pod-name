@@ -14,13 +14,6 @@ import (
 	"k8s.io/client-go/util/homedir"
 )
 
-// groupResource contains the APIGroup and APIResource
-type groupResource struct {
-	APIGroup        string
-	APIGroupVersion string
-	APIResource     metav1.APIResource
-}
-
 func main() {
 	ip := flag.String("ip", "", "ip to check in the cluster")
 
